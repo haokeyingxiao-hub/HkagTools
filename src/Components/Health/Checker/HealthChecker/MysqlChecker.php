@@ -100,7 +100,7 @@ class MysqlChecker implements HealthCheckerInterface, CheckerInterface
     private function extract(string $versionString): array
     {
         if (mb_stripos($versionString, 'mariadb') === false) {
-            if (mb_strpos($versionString, '-')) {
+            if (mb_strpos($versionString, '-') !== false) {
                 $versionString = mb_substr($versionString, 0, mb_strpos($versionString, '-'));
             }
 

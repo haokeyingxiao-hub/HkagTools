@@ -8,6 +8,7 @@ use Hkag\Tools\Components\Health\Checker\CheckerInterface;
 use Hkag\Tools\Components\Health\HealthCollection;
 use Hkag\Tools\Components\Health\PerformanceCollection;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\DependencyInjection\Attribute\AutowireIterator;
 use Symfony\Component\DependencyInjection\Attribute\TaggedIterator;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
@@ -20,9 +21,9 @@ class HealthController extends AbstractController
      * @param CheckerInterface[] $performanceCheckers
      */
     public function __construct(
-        #[TaggedIterator('hkag_tools.health_checker')]
+        #[AutowireIterator('hkag_tools.health_checker')]
         private readonly iterable $healthCheckers,
-        #[TaggedIterator('hkag_tools.performance_checker')]
+        #[AutowireIterator('hkag_tools.performance_checker')]
         private readonly iterable $performanceCheckers,
     ) {}
 

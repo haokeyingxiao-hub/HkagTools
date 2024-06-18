@@ -11,8 +11,7 @@ use Symfony\Component\DependencyInjection\Extension\Extension;
 class HkagToolsExtension extends Extension
 {
     /**
-     * @param array $configs
-     * @param ContainerBuilder $container
+     * @param array<mixed> $configs
      */
     public function load(array $configs, ContainerBuilder $container): void
     {
@@ -21,9 +20,7 @@ class HkagToolsExtension extends Extension
     }
 
     /**
-     * @param array $config
-     * @param ContainerBuilder $container
-     * @return ConfigurationInterface
+     * @param array<mixed> $config
      */
     public function getConfiguration(array $config, ContainerBuilder $container): ConfigurationInterface
     {
@@ -31,9 +28,7 @@ class HkagToolsExtension extends Extension
     }
 
     /**
-     * @param ContainerBuilder $container
-     * @param string $alias
-     * @param array $options
+     * @param array<mixed> $options
      */
     private function addConfig(ContainerBuilder $container, string $alias, array $options): void
     {
