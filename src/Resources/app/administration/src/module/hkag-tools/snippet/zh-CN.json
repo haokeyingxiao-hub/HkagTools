@@ -1,0 +1,107 @@
+{
+  "hkag-tools": {
+    "title": "工具",
+    "tabs": {
+      "index": {
+        "title": "系统状态",
+        "performance": "性能推荐"
+      },
+      "systemInfo": {
+        "title": "系统信息"
+      },
+      "cache": {
+        "title": "缓存"
+      },
+      "scheduledTaskOverview": {
+        "title": "计划任务管理器"
+      },
+      "queue": {
+        "title": "队列管理器",
+        "reset": {
+          "modal": {
+            "title": "重置队列",
+            "description": "重置队列将删除所有未完成的任务。",
+            "reset": "重置"
+          },
+          "success": "队列已被清空"
+        }
+      },
+      "elasticsearch": {
+        "title": "Elasticsearch 管理器"
+      },
+      "logs": {
+        "title": "日志查看器",
+        "logFileSelect": {
+          "placeholder": "选择文件"
+        }
+      },
+      "files": {
+        "title": "文件检查器",
+        "allFilesOk": "没有文件被修改",
+        "notOk": "有文件被修改",
+        "openOriginal": "在 GitHub 上打开原始文件",
+        "restore": {
+          "diff": "与原始文件比较差异",
+          "restoreFile": "恢复文件"
+        },
+        "expectedAll": "文件已被修改",
+        "expectedProject": "文件已被修改，但会被项目设置忽略"
+      },
+      "state-machines": {
+        "title": "状态机查看器",
+        "label": "状态机",
+        "helpText": "选择一个状态机。图像是由 plantuml.com API 生成的。因此，您的服务器需要能够访问 plantuml.com，并且不受防火墙规则的限制。",
+        "orderTitle": "订单状态",
+        "transactionTitle": "交易状态",
+        "deliveryTitle": "交付状态"
+      }
+    },
+    "clear": "清除",
+    "status": "状态",
+    "name": "名称",
+    "good": "良好",
+    "warning": "警告",
+    "error": "错误",
+    "info": "信息",
+    "active": "活跃",
+    "used": "已使用",
+    "free": "空闲",
+    "compileTheme": "编译主题",
+    "themeCompiled": "主题已编译",
+    "actions": "操作",
+    "scheduledTasks": "计划任务",
+    "interval": "间隔",
+    "lastExecutionTime": "上次执行时间",
+    "nextExecutionTime": "下次执行时间",
+    "runManually": "手动启动",
+    "scheduledTaskStarted": "计划任务\"{name}\"的执行已开始",
+    "scheduledTaskSucceed": "计划任务\"{name}\"的执行成功",
+    "scheduledTaskFailed": "计划任务\"{name}\"的执行失败",
+    "scheduledTasksRegisterStarted": "注册计划任务",
+    "scheduledTasksRegisterSucceed": "计划任务已注册",
+    "scheduledTasksRegisterFailed": "计划任务注册失败",
+    "size": "大小",
+    "docs": "文档",
+    "delete": "删除",
+    "resetQueue": "重置队列",
+    "date": "日期",
+    "channel": "频道",
+    "level": "级别",
+    "message": "消息",
+    "current": "当前",
+    "recommended": "推荐",
+    "noRecommendations": "无推荐",
+    "chooseStateMachine": "选择一个状态机...",
+    "order": "订单",
+    "transaction": "支付",
+    "delivery": "交付"
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "hkag_tools": {
+        "hkag_tools": "查看监控",
+        "label": "工具"
+      }
+    }
+  }
+}

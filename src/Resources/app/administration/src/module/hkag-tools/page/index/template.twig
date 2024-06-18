@@ -1,0 +1,46 @@
+<sw-page class="hkag-tools">
+    <template #content>
+        <sw-container>
+            <sw-tabs :small="false" positionIdentifier="hkag-tools-tabs">
+                <sw-tabs-item :route="{ name: 'hkag.tools.index.index' }">
+                    {{ $tc('hkag-tools.tabs.index.title') }}
+                </sw-tabs-item>
+
+{#                <sw-tabs-item :route="{ name: 'hkag.tools.index.index' }">#}
+{#                    {{ $tc('hkag-tools.tabs.systemInfo.title') }}#}
+{#                </sw-tabs-item>#}
+
+                <sw-tabs-item :route="{ name: 'hkag.tools.index.cache' }">
+                    {{ $tc('hkag-tools.tabs.cache.title') }}
+                </sw-tabs-item>
+
+                <sw-tabs-item :route="{ name: 'hkag.tools.index.scheduled' }">
+                    {{ $tc('hkag-tools.tabs.scheduledTaskOverview.title') }}
+                </sw-tabs-item>
+
+                <sw-tabs-item :route="{ name: 'hkag.tools.index.queue' }">
+                    {{ $tc('hkag-tools.tabs.queue.title') }}
+                </sw-tabs-item>
+
+                <sw-tabs-item :route="{ name: 'hkag.tools.index.logs' }">
+                    {{ $tc('hkag-tools.tabs.logs.title') }}
+                </sw-tabs-item>
+
+                <sw-tabs-item :route="{ name: 'hkag.tools.index.elasticsearch' }" v-if="elasticsearchAvailable">
+                    {{ $tc('hkag-tools.tabs.elasticsearch.title') }}
+                </sw-tabs-item>
+
+                <sw-tabs-item :route="{ name: 'hkag.tools.index.files' }">
+                    {{ $tc('hkag-tools.tabs.files.title') }}
+                </sw-tabs-item>
+
+                <sw-tabs-item :route="{ name: 'hkag.tools.index.statemachines' }">
+                    {{ $tc('hkag-tools.tabs.state-machines.title') }}
+                </sw-tabs-item>
+
+            </sw-tabs>
+        </sw-container>
+
+        <router-view></router-view>
+    </template>
+</sw-page>

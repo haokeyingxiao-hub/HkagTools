@@ -1,0 +1,17 @@
+name: Code Style
+on:
+    workflow_dispatch:
+    pull_request:
+    push:
+        branches:
+            - main
+
+jobs:
+    cs:
+        if: github.event_name != 'schedule'
+        uses: haokeyingxiao/github-actions/.github/workflows/cs-fixer.yml@main
+    phpstan:
+        uses: haokeyingxiao/github-actions/.github/workflows/phpstan.yml@main
+        with:
+          extensionName: HkagTools
+          haokeVersion: ^6.6
