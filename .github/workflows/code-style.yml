@@ -14,4 +14,3 @@ jobs:
         uses: haokeyingxiao/github-actions/.github/workflows/phpstan.yml@main
         with:
           extensionName: HkagTools
-          haokeVersion: ^6.6
