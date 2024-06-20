@@ -27,7 +27,7 @@ class DisabledMailUpdatesChecker implements PerformanceCheckerInterface, Checker
 
         $result = SettingsResult::warning('mail_variables', 'MailVariables updates', 'enabled', 'disabled');
 
-        $result->url = 'https://developer.shopware.com/docs/guides/hosting/performance/performance-tweaks#prevent-mail-data-updates';
+        $result->url = 'https://developer.haokeyingxiao.com/docs/guides/hosting/performance/performance-tweaks#prevent-mail-data-updates';
         $collection->add($result);
     }
 }

@@ -47,7 +47,7 @@ class ShopwareFilesController extends AbstractController
         private readonly EntityRepository $userRepository,
         private readonly EntityRepository $integrationRepository,
     ) {
-        $this->isPlatform = !is_dir($this->projectDir . '/vendor/shopware/core') && is_dir($this->projectDir . '/src/Core');
+        $this->isPlatform = !is_dir($this->projectDir . '/vendor/haokeyingxiao/core') && is_dir($this->projectDir . '/src/Core');
     }
 
     #[Route(path: '/shopware-files', name: 'api.hkag.tools.shopware-files', methods: ['GET'])]

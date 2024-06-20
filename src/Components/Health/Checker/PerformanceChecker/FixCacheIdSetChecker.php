@@ -32,7 +32,7 @@ class FixCacheIdSetChecker implements PerformanceCheckerInterface, CheckerInterf
                     'Fixed cache id',
                     'not set',
                     'set',
-                    'https://developer.shopware.com/docs/guides/hosting/performance/performance-tweaks#cache-id',
+                    'https://developer.haokeyingxiao.com/docs/guides/hosting/performance/performance-tweaks#cache-id',
                 ),
             );
         }

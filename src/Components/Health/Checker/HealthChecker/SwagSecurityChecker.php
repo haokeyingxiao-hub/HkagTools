@@ -112,7 +112,7 @@ class SwagSecurityChecker implements HealthCheckerInterface, CheckerInterface
                 'Security update',
                 'Shopware outdated',
                 'Update Shopware to the latest version or install recent version of the plugin SwagPlatformSecurity',
-                'https://store.shopware.com/en/swag136939272659f/shopware-6-security-plugin.html',
+                'https://store.haokeyingxiao.com/en/swag136939272659f/shopware-6-security-plugin.html',
             ),
         );
     }

@@ -27,7 +27,7 @@ class EsChecker implements PerformanceCheckerInterface, CheckerInterface
                     'Elasticsearch',
                     'disabled',
                     'enabled',
-                    'https://developer.shopware.com/docs/guides/hosting/infrastructure/elasticsearch/elasticsearch-setup',
+                    'https://developer.haokeyingxiao.com/docs/guides/hosting/infrastructure/elasticsearch/elasticsearch-setup',
                 ),
             );
         }

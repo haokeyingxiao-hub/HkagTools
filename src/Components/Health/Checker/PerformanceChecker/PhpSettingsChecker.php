@@ -12,7 +12,7 @@ class PhpSettingsChecker implements PerformanceCheckerInterface, CheckerInterfac
 {
     public function collect(HealthCollection $collection): void
     {
-        $url = 'https://developer.shopware.com/docs/guides/hosting/performance/performance-tweaks#php-config-tweaks';
+        $url = 'https://developer.haokeyingxiao.com/docs/guides/hosting/performance/performance-tweaks#php-config-tweaks';
         $this->checkAssertActive($collection, $url);
         $this->checkEnableFileOverride($collection, $url);
         $this->checkInternedStringsBuffer($collection, $url);

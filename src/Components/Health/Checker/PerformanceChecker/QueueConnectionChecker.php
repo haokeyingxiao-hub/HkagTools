@@ -21,7 +21,7 @@ class QueueConnectionChecker implements PerformanceCheckerInterface, CheckerInte
         $schema = $this->getSchema();
 
         $id = 'queue.adapter';
-        $url = 'https://developer.shopware.com/docs/guides/hosting/infrastructure/message-queue.html#message-queue-on-production-systems';
+        $url = 'https://developer.haokeyingxiao.com/docs/guides/hosting/infrastructure/message-queue.html#message-queue-on-production-systems';
 
         if ($schema === 'doctrine') {
             $collection->add(
