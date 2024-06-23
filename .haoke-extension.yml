@@ -1,12 +1,4 @@
 store:
-    availabilities:
-        - German
-        - International
-    default_locale: zh_CN
-    localizations:
-        - de_DE
-        - en_GB
-        - zh_CN
     categories:
         - Administration
     type: extension
