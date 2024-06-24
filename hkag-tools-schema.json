@@ -10,7 +10,7 @@
           "$ref": "#/definitions/hkag_tools"
         }
       },
-      "additionalProperties": false,
+      "additionalProperties": false
     },
     "hkag_tools": {
       "type": "object",
