@@ -2,21 +2,21 @@ store:
 #    categories:
 #        - Administration
 #    type: extension
-#    icon: src/Resources/store/icon.png
+    icon: src/Resources/store/icon.png
     price:
       type: buy
       money: 50.8
-#    description:
-#      de: file:src/Resources/store/de.md
-#      en: file:src/Resources/store/en.md
-#    images:
-#        - file: src/Resources/store/img-0.png
-#          priority: 0
-#        - file: src/Resources/store/img-1.png
-#          priority: 0
-#        - file: src/Resources/store/img-2.png
-#          priority: 0
-#        - file: src/Resources/store/img-3.png
-#          priority: 0
-#        - file: src/Resources/store/img-4.png
-#          priority: 0
+    description:
+      de: file:src/Resources/store/de.md
+      en: file:src/Resources/store/en.md
+    images:
+        - file: src/Resources/store/img-0.png
+          priority: 0
+        - file: src/Resources/store/img-1.png
+          priority: 0
+        - file: src/Resources/store/img-2.png
+          priority: 0
+        - file: src/Resources/store/img-3.png
+          priority: 0
+        - file: src/Resources/store/img-4.png
+          priority: 0
