@@ -16,7 +16,5 @@ store:
           priority: 0
         - file: src/Resources/store/img-2.png
           priority: 0
-        - file: src/Resources/store/img-3.png
-          priority: 0
         - file: src/Resources/store/img-4.png
           priority: 0
