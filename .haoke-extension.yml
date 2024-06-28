@@ -5,7 +5,7 @@ store:
     icon: src/Resources/store/icon.png
     price:
       type: buy
-      money: 50.8
+      money: 9.9
     description:
       de: file:src/Resources/store/de.md
       en: file:src/Resources/store/en.md

@@ -17,11 +17,3 @@ The current feature set consists of:
         *   Set FROSH_TOOLS_TASK_LOGGING_INFO=1 in .env to log all tasks
 *   Feature Flag Manager
     *   Provides the ability to enable or disable feature flags
-
-Link to repository: [https://github.com/haokeyingxiao/HkagTools](https://github.com/haokeyingxiao/HkagTools)
-
-This plugin is part of [@FriendsOfShopware](https://store.haokeyingxiao.com/en/friends-of-shopware.html).  
-
-Maintainer for the plugin is: [Soner Sayakci](https://github.com/shyim)
-
-For questions or bugs please create a [Github Issue](https://github.com/haokeyingxiao/HkagTools/issues/new)
