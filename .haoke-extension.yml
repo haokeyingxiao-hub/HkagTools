@@ -1,7 +1,7 @@
 store:
-#    categories:
-#        - Administration
-#    type: extension
+    categories:
+      - Administration
+    type: extension
     icon: src/Resources/store/icon.png
     price:
       type: buy
