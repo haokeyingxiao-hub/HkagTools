@@ -132,7 +132,7 @@ class SwagSecurityChecker implements HealthCheckerInterface, CheckerInterface
                     $snippet,
                     'releases.json not accessible',
                     'accessible',
-                    'https://raw.githubusercontent.com/shopware/shopware/trunk/releases.json',
+                    'https://raw.githubusercontent.com/haokeyingxiao/haoke/trunk/releases.json',
                 ),
             );
 
@@ -212,7 +212,7 @@ class SwagSecurityChecker implements HealthCheckerInterface, CheckerInterface
         $cacheKey = \sprintf('shopware-releases-support-%s', $this->shopwareVersion);
 
         return $this->cacheObject->get($cacheKey, function (ItemInterface $cacheItem) {
-            $releasesJson = file_get_contents('https://raw.githubusercontent.com/shopware/shopware/trunk/releases.json');
+            $releasesJson = file_get_contents('https://raw.githubusercontent.com/haokeyingxiao/haoke/trunk/releases.json');
             if ($releasesJson === false) {
                 throw new \RuntimeException('Could not fetch releases.json');
             }
