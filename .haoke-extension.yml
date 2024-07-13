@@ -3,9 +3,6 @@ store:
       - Administration
     type: extension
     icon: src/Resources/store/icon.png
-    price:
-      type: buy
-      money: 9.9
     description:
       de: file:src/Resources/store/de.md
       en: file:src/Resources/store/en.md
