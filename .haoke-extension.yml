@@ -6,6 +6,7 @@ store:
     description:
       de: file:src/Resources/store/de.md
       en: file:src/Resources/store/en.md
+      zh: file:src/Resources/store/zh.md
     images:
         - file: src/Resources/store/img-0.png
           priority: 0
